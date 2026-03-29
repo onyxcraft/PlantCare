@@ -3,467 +3,169 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A10001 /* PlantCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000 /* PlantCareApp.swift */; };
-		A10003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002 /* ContentView.swift */; };
-		A10005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10004 /* Assets.xcassets */; };
-		A10010 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10009 /* Plant.swift */; };
-		A10012 /* WateringLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10011 /* WateringLog.swift */; };
-		A10014 /* HealthLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10013 /* HealthLog.swift */; };
-		A10016 /* CareTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10015 /* CareTip.swift */; };
-		A10020 /* PlantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10019 /* PlantViewModel.swift */; };
-		A10022 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10021 /* NotificationManager.swift */; };
-		A10030 /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10029 /* PlantListView.swift */; };
-		A10032 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10031 /* PlantDetailView.swift */; };
-		A10034 /* AddPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10033 /* AddPlantView.swift */; };
-		A10036 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10035 /* CalendarView.swift */; };
-		A10038 /* CareTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10037 /* CareTipsView.swift */; };
-		A10040 /* HealthLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10039 /* HealthLogView.swift */; };
-		A10042 /* CareTipsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10041 /* CareTipsData.swift */; };
-		A10050 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10049 /* WidgetKit.framework */; };
-		A10051 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10048 /* SwiftUI.framework */; };
-		A10054 /* PlantCareWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10053 /* PlantCareWidget.swift */; };
-		A10056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10055 /* Assets.xcassets */; };
-		A10058 /* PlantCareWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10047 /* PlantCareWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A10060 /* PlantWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10059 /* PlantWidgetEntry.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A10057 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A00001 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A10046;
-			remoteInfo = PlantCareWidgetExtension;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A10062 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				A10058 /* PlantCareWidgetExtension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		A00002 /* PlantCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000 /* PlantCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCareApp.swift; sourceTree = "<group>"; };
-		A10002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A10004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A10009 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
-		A10011 /* WateringLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringLog.swift; sourceTree = "<group>"; };
-		A10013 /* HealthLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLog.swift; sourceTree = "<group>"; };
-		A10015 /* CareTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTip.swift; sourceTree = "<group>"; };
-		A10019 /* PlantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewModel.swift; sourceTree = "<group>"; };
-		A10021 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
-		A10029 /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
-		A10031 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
-		A10033 /* AddPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantView.swift; sourceTree = "<group>"; };
-		A10035 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		A10037 /* CareTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTipsView.swift; sourceTree = "<group>"; };
-		A10039 /* HealthLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogView.swift; sourceTree = "<group>"; };
-		A10041 /* CareTipsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTipsData.swift; sourceTree = "<group>"; };
-		A10047 /* PlantCareWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlantCareWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10048 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		A10049 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		A10053 /* PlantCareWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCareWidget.swift; sourceTree = "<group>"; };
-		A10055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A10059 /* PlantWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantWidgetEntry.swift; sourceTree = "<group>"; };
-		A10070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A10071 /* PlantCareWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlantCareWidgetExtension.entitlements; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		A00003 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10044 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A10050 /* WidgetKit.framework in Frameworks */,
-				A10051 /* SwiftUI.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		A00000 = {
-			isa = PBXGroup;
-			children = (
-				A00005 /* PlantCare */,
-				A10052 /* PlantCareWidget */,
-				A10045 /* Frameworks */,
-				A00004 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		A00004 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A00002 /* PlantCare.app */,
-				A10047 /* PlantCareWidgetExtension.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A00005 /* PlantCare */ = {
-			isa = PBXGroup;
-			children = (
-				A10000 /* PlantCareApp.swift */,
-				A10002 /* ContentView.swift */,
-				A10070 /* Info.plist */,
-				A10008 /* Models */,
-				A10018 /* ViewModels */,
-				A10028 /* Views */,
-				A10043 /* Data */,
-				A10027 /* Utils */,
-				A10004 /* Assets.xcassets */,
-			);
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0595F75D41AF415BA9206D57 /* PlantCare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PlantCare;
 			sourceTree = "<group>";
 		};
-		A10008 /* Models */ = {
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFileReference section */
+		DA49FA5456794A24A2D915CB /* PlantCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlantCare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7CDD1EE99E7F422DBD1346E4 = {
 			isa = PBXGroup;
 			children = (
-				A10009 /* Plant.swift */,
-				A10011 /* WateringLog.swift */,
-				A10013 /* HealthLog.swift */,
-				A10015 /* CareTip.swift */,
+				0595F75D41AF415BA9206D57 /* PlantCare */,
+				FB9E87B03A71492E8745B269 /* Products */,
 			);
-			path = Models;
 			sourceTree = "<group>";
 		};
-		A10018 /* ViewModels */ = {
+		FB9E87B03A71492E8745B269 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10019 /* PlantViewModel.swift */,
+				DA49FA5456794A24A2D915CB /* PlantCare.app */,
 			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		A10027 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				A10021 /* NotificationManager.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		A10028 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A10029 /* PlantListView.swift */,
-				A10031 /* PlantDetailView.swift */,
-				A10033 /* AddPlantView.swift */,
-				A10035 /* CalendarView.swift */,
-				A10037 /* CareTipsView.swift */,
-				A10039 /* HealthLogView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A10043 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				A10041 /* CareTipsData.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		A10045 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A10049 /* WidgetKit.framework */,
-				A10048 /* SwiftUI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A10052 /* PlantCareWidget */ = {
-			isa = PBXGroup;
-			children = (
-				A10053 /* PlantCareWidget.swift */,
-				A10059 /* PlantWidgetEntry.swift */,
-				A10055 /* Assets.xcassets */,
-				A10071 /* PlantCareWidgetExtension.entitlements */,
-			);
-			path = PlantCareWidget;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A00001 /* PlantCare */ = {
+		E53FB2EA805A452185E26662 /* PlantCare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A00010 /* Build configuration list for PBXNativeTarget "PlantCare" */;
+			buildConfigurationList = 3BC3CEC484BF4F29AD46863F /* Build configuration list for PBXNativeTarget "PlantCare" */;
 			buildPhases = (
-				A00003 /* Frameworks */,
-				A00006 /* Sources */,
-				A00007 /* Resources */,
-				A10062 /* Embed Foundation Extensions */,
+				7E961264367148DAA67B12DE /* Sources */,
+				D5C53530C487480F8CAAA9B7 /* Frameworks */,
+				EFD2417CB8BA43A1851DE771 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A10057 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0595F75D41AF415BA9206D57 /* PlantCare */,
 			);
 			name = PlantCare;
+			packageProductDependencies = (
+			);
 			productName = PlantCare;
-			productReference = A00002 /* PlantCare.app */;
+			productReference = DA49FA5456794A24A2D915CB /* PlantCare.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A10046 /* PlantCareWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A10061 /* Build configuration list for PBXNativeTarget "PlantCareWidgetExtension" */;
-			buildPhases = (
-				A10044 /* Frameworks */,
-				A10063 /* Sources */,
-				A10064 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PlantCareWidgetExtension;
-			productName = PlantCareWidgetExtension;
-			productReference = A10047 /* PlantCareWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A00001 /* Project object */ = {
+		B8F5ED043C5743FD94E1465B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-					A00001 = {
-						CreatedOnToolsVersion = 15.0;
-					};
-					A10046 = {
-						CreatedOnToolsVersion = 15.0;
-					};
-				};
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
 			};
-			buildConfigurationList = A00009 /* Build configuration list for PBXProject "PlantCare" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 5D9D7C746E234095B5DC445F /* Build configuration list for PBXProject "PlantCare" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A00000;
-			productRefGroup = A00004 /* Products */;
+			mainGroup = 7CDD1EE99E7F422DBD1346E4;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = FB9E87B03A71492E8745B269 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A00001 /* PlantCare */,
-				A10046 /* PlantCareWidgetExtension */,
+				E53FB2EA805A452185E26662 /* PlantCare */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A00007 /* Resources */ = {
+		EFD2417CB8BA43A1851DE771 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10005 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10064 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A10056 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A00006 /* Sources */ = {
+		7E961264367148DAA67B12DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10001 /* PlantCareApp.swift in Sources */,
-				A10003 /* ContentView.swift in Sources */,
-				A10010 /* Plant.swift in Sources */,
-				A10012 /* WateringLog.swift in Sources */,
-				A10014 /* HealthLog.swift in Sources */,
-				A10016 /* CareTip.swift in Sources */,
-				A10020 /* PlantViewModel.swift in Sources */,
-				A10022 /* NotificationManager.swift in Sources */,
-				A10030 /* PlantListView.swift in Sources */,
-				A10032 /* PlantDetailView.swift in Sources */,
-				A10034 /* AddPlantView.swift in Sources */,
-				A10036 /* CalendarView.swift in Sources */,
-				A10038 /* CareTipsView.swift in Sources */,
-				A10040 /* HealthLogView.swift in Sources */,
-				A10042 /* CareTipsData.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10063 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A10054 /* PlantCareWidget.swift in Sources */,
-				A10060 /* PlantWidgetEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		A10057 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A10046 /* PlantCareWidgetExtension */;
-			targetProxy = A10057 /* PBXContainerItemProxy */;
+/* Begin PBXFrameworksBuildPhase section */
+		D5C53530C487480F8CAAA9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXTargetDependency section */
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A00011 /* Debug */ = {
+		778915E249CF4B84A34DBF71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 			};
 			name = Debug;
 		};
-		A00012 /* Release */ = {
+		BC78555139DD4D73ABE940DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 			};
 			name = Release;
 		};
-		A00013 /* Debug */ = {
+		9D9FFC943D9C44E9946F62C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -472,31 +174,23 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = PlantCare/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lopodragon.plantcare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A00014 /* Release */ = {
+		9EBD727E5D2942F4A712D695 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -505,125 +199,46 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = PlantCare/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lopodragon.plantcare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A10065 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = PlantCareWidget/PlantCareWidgetExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlantCareWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PlantCareWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lopodragon.plantcare.PlantCareWidgetExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A10066 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = PlantCareWidget/PlantCareWidgetExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlantCareWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PlantCareWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lopodragon.plantcare.PlantCareWidgetExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A00009 /* Build configuration list for PBXProject "PlantCare" */ = {
+		5D9D7C746E234095B5DC445F /* Build configuration list for PBXProject "PlantCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A00011 /* Debug */,
-				A00012 /* Release */,
+				778915E249CF4B84A34DBF71 /* Debug */,
+				BC78555139DD4D73ABE940DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A00010 /* Build configuration list for PBXNativeTarget "PlantCare" */ = {
+		3BC3CEC484BF4F29AD46863F /* Build configuration list for PBXNativeTarget "PlantCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A00013 /* Debug */,
-				A00014 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A10061 /* Build configuration list for PBXNativeTarget "PlantCareWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A10065 /* Debug */,
-				A10066 /* Release */,
+				9D9FFC943D9C44E9946F62C4 /* Debug */,
+				9EBD727E5D2942F4A712D695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
 	};
-	rootObject = A00001 /* Project object */;
+	rootObject = B8F5ED043C5743FD94E1465B /* Project object */;
 }
+

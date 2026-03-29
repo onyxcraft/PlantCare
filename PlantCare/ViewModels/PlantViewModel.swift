@@ -7,7 +7,7 @@ class PlantViewModel: ObservableObject {
     @Published var plants: [Plant] = []
     @Published var searchText: String = ""
 
-    private var modelContext: ModelContext
+    var modelContext: ModelContext
 
     init(modelContext: ModelContext) {
         self.modelContext = modelContext
